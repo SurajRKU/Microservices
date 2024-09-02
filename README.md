@@ -43,8 +43,7 @@ In this section, we will define a task definition for our ECS cluster to facilit
 <img width="700" height = "300" alt="Task_definition_Config_1" src="https://github.com/user-attachments/assets/8a1d189e-3885-4daa-8ec2-aec3d8c9fd30"><br /><br />
 <img width="700" height = "300" alt="Task_definition_Config_2" src="https://github.com/user-attachments/assets/10c33719-ac97-4760-9761-5bba8421959a"><br /><br />
 <img width="700" height = "300" alt="Task_definition_Config_3" src="https://github.com/user-attachments/assets/3b09a4a2-a0c1-4705-952c-17537e9db167"><br /><br />
-<img width="700" height = "300" alt="Task_definition_Config_4" src="https://github.com/user-attachments/assets/6c1a48dd-de1a-444b-beea-ce6a9218b11c"><br /><br />
-<img width="700" height = "300" alt="Task_definition_Config_5" src="https://github.com/user-attachments/assets/802115f7-e92b-4d79-8d7d-5ac579f5689f"><br /><br />
+<img width="700" height = "300" alt="Task_definition_Config_5" src="https://github.com/user-attachments/assets/c8b5fa4e-44b3-4bac-b76d-8248e8fb51b5"><br /><br />
 <img width="700" height = "300" alt="Task_Definition_Config_6_imp" src="https://github.com/user-attachments/assets/c36dcaae-2fc5-485c-93f6-f60609e436b7">
 
 #### Part-5 Creating a Service referring to above task definition
@@ -58,7 +57,7 @@ In this step, the Application Load Balancer (ALB) and target groups configured e
 <img width="700" height = "300" alt="Task_Service_Config_4" src="https://github.com/user-attachments/assets/fd69d4fb-33ea-448f-937f-9bacb59fd22f"><br /><br />
 <img width="700" height = "300" alt="Task_Service_Config_5" src="https://github.com/user-attachments/assets/b06db53c-1e0e-43ed-9712-8ca465f933fc"><br /><br />
 <img width="700" height = "300" alt="Task_Service_Config_6" src="https://github.com/user-attachments/assets/5d99c698-623d-4b1b-ab0a-7f91db35469f"><br /><br />
-<img width="700" height = "300" alt="Task_Service_Config_7" src="https://github.com/user-attachments/assets/f8f9b8d3-8b8f-4c2c-8c96-7d1957361ceb"><br /><br />
+<img width="700" height = "300" alt="Task_Service_Config_7" src="https://github.com/user-attachments/assets/c7265819-f409-4f4d-927b-e84f5d9f59d7"><br /><br />
 <img width="700" height = "300" alt="Task_Service_Config_8" src="https://github.com/user-attachments/assets/cb549695-b6f5-4bb0-80e5-f1a6c5be4855"><br /><br />
 
 #### Part-6 Output
@@ -133,7 +132,7 @@ In the final phase of transitioning from a monolithic architecture to a microser
 <br/><br />
 Concurrently, In the monolithic service configuration we updated the number of tasks to set to zero, effectively decommissioning the monolithic service. This transition ensures that each microservice operates independently, with isolated failure domains and independent scalability. Consequently, a failure in one feature does not affect the others, enhancing overall system resilience and operational efficiency.
 <br/><br />
-<img width="700" height="300" alt="final_delete_monolithic_service_update_step1" src="https://github.com/user-attachments/assets/454803fc-9047-4eec-8075-3ddb84f342c2"><br /><br />
+<img width="700" height ="300" alt="final_delete_monolithic_service_update_step1" src="https://github.com/user-attachments/assets/12d026b2-b4a4-4409-b192-b9486026c405"><br /><br />
 <img width="700" height="300" alt="final_delete_monolithic_service_update_step2" src="https://github.com/user-attachments/assets/2870f8a7-2268-4545-a0cf-3fe4e957bf1c"><br /><br />
 <img width="700" height="300" alt="final_delete_monolithic_service_update_step_complete" src="https://github.com/user-attachments/assets/420093bc-5ddd-44d4-b3d1-2f6fb25da2f3"><br /><br />
 
@@ -141,7 +140,7 @@ Concurrently, In the monolithic service configuration we updated the number of t
 #### Part-7 Output
 
 The output images below illustrate the successful migration to a microservices architecture. <br /><br /> 
-Default route - "/api" or "/" repsonse by microservice architecture<br /><br /> 
+Default route - "/api" or "/" response by microservice architecture<br /> 
 <img width="700" height ="300" alt="Microservices_LB_Output_default" src="https://github.com/user-attachments/assets/a0a7dd85-1d80-4793-b46f-784dd8bcadfd"><br /><br />
 Before deploying Users feature microservice<br /><br /> 
 <img width="700" height = "300" alt="LB_output_before_deploying_users_task_microservice" src="https://github.com/user-attachments/assets/9508b1cc-1ae6-42a7-8847-228b971f6eea"><br /><br /> 
