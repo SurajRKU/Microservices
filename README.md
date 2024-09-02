@@ -87,9 +87,9 @@ In this step, we will create task defintions for each of the services namely Use
 
 <img width="700" height= "300" alt="Microservices_Task_defintions" src="https://github.com/user-attachments/assets/241d8a15-6611-4754-bcdd-891c0101f92c">
 
-### #Part-3 Configuring target groups and ALB listener rules
+#### Part-3 Configuring target groups and ALB listener rules
 
-#### Part-3.1 Adding target groups
+##### Part-3.1 Adding target groups
 In this step, we will create addtional three target groups one for each of users, posts and threads features of our application, wuth the same EC2 cluster targets as shown below.
 
 <img width="700" height = "300" alt="Target_group_update_elb_yet" src="https://github.com/user-attachments/assets/de096416-5764-4d6f-904b-b7584ec652a7">
